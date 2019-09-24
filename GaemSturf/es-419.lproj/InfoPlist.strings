@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  GaemSturf
+
+  Created by Jonathan Willis on 9/18/19.
+  Copyright © 2019 WillisWare, LLC. All rights reserved.
+*/
+NSLocationAlwaysAndWhenInUseUsageDescription = "Esta aplicación utiliza el GPS para dibujar tus bocetos.";
+NSLocationAlwaysUsageDescription = "Esta aplicación utiliza el GPS para dibujar tus bocetos.";
+NSLocationUsageDescription = "Esta aplicación utiliza el GPS para dibujar tus bocetos.";
+NSLocationWhenInUseUsageDescription = "Esta aplicación utiliza el GPS para dibujar tus bocetos.";
+NSPhotoLibraryUsageDescription = "Le permite usar sus fotos como fondo.";

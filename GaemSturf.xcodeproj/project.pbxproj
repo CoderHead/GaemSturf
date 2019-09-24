@@ -1,0 +1,927 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A09FCA572332B47400A278A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A09FCA592332B47400A278A1 /* InfoPlist.strings */; };
+		A09FCA5E2332BA5600A278A1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A09FCA602332BA5600A278A1 /* Localizable.strings */; };
+		A0C8B30E232814090092FBA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C8B30D232814090092FBA0 /* AppDelegate.swift */; };
+		A0C8B310232814090092FBA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C8B30F232814090092FBA0 /* ViewController.swift */; };
+		A0C8B313232814090092FBA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C8B311232814090092FBA0 /* Main.storyboard */; };
+		A0C8B3152328140A0092FBA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C8B3142328140A0092FBA0 /* Assets.xcassets */; };
+		A0C8B3182328140A0092FBA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C8B3162328140A0092FBA0 /* LaunchScreen.storyboard */; };
+		A0C8B3232328140A0092FBA0 /* GaemSturfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C8B3222328140A0092FBA0 /* GaemSturfTests.swift */; };
+		A0C8B32E2328140A0092FBA0 /* GaemSturfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C8B32D2328140A0092FBA0 /* GaemSturfUITests.swift */; };
+		A0C8B3332328140A0092FBA0 /* GaemSturf WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A0C8B3322328140A0092FBA0 /* GaemSturf WatchKit App.app */; };
+		A0C8B3392328140A0092FBA0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C8B3372328140A0092FBA0 /* Interface.storyboard */; };
+		A0C8B33B2328140B0092FBA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C8B33A2328140B0092FBA0 /* Assets.xcassets */; };
+		A0C8B3422328140B0092FBA0 /* GaemSturf WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A0C8B3412328140B0092FBA0 /* GaemSturf WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A0C8B3472328140B0092FBA0 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C8B3462328140B0092FBA0 /* InterfaceController.swift */; };
+		A0C8B3492328140B0092FBA0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C8B3482328140B0092FBA0 /* ExtensionDelegate.swift */; };
+		A0C8B34B2328140B0092FBA0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C8B34A2328140B0092FBA0 /* NotificationController.swift */; };
+		A0C8B34D2328140B0092FBA0 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C8B34C2328140B0092FBA0 /* ComplicationController.swift */; };
+		A0C8B34F2328140C0092FBA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C8B34E2328140C0092FBA0 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0C8B31F2328140A0092FBA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0C8B302232814090092FBA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0C8B309232814090092FBA0;
+			remoteInfo = GaemSturf;
+		};
+		A0C8B32A2328140A0092FBA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0C8B302232814090092FBA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0C8B309232814090092FBA0;
+			remoteInfo = GaemSturf;
+		};
+		A0C8B3342328140A0092FBA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0C8B302232814090092FBA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0C8B3312328140A0092FBA0;
+			remoteInfo = "GaemSturf WatchKit App";
+		};
+		A0C8B3432328140B0092FBA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0C8B302232814090092FBA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0C8B3402328140B0092FBA0;
+			remoteInfo = "GaemSturf WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0C8B3572328140C0092FBA0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A0C8B3422328140B0092FBA0 /* GaemSturf WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C8B35B2328140C0092FBA0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A0C8B3332328140A0092FBA0 /* GaemSturf WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A09FCA582332B47400A278A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A09FCA5A2332B53C00A278A1 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		A09FCA5B2332B56400A278A1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A09FCA5F2332BA5600A278A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A09FCA612332BA5C00A278A1 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A09FCA622332BA5D00A278A1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A09FCA642332BC5900A278A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		A09FCA662332BC5B00A278A1 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Main.strings"; sourceTree = "<group>"; };
+		A09FCA682332BC5C00A278A1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		A0C8B30A232814090092FBA0 /* GaemSturf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaemSturf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C8B30D232814090092FBA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0C8B30F232814090092FBA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0C8B312232814090092FBA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0C8B3142328140A0092FBA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0C8B3172328140A0092FBA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0C8B3192328140A0092FBA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C8B31E2328140A0092FBA0 /* GaemSturfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaemSturfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C8B3222328140A0092FBA0 /* GaemSturfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaemSturfTests.swift; sourceTree = "<group>"; };
+		A0C8B3242328140A0092FBA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C8B3292328140A0092FBA0 /* GaemSturfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaemSturfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C8B32D2328140A0092FBA0 /* GaemSturfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaemSturfUITests.swift; sourceTree = "<group>"; };
+		A0C8B32F2328140A0092FBA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C8B3322328140A0092FBA0 /* GaemSturf WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GaemSturf WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C8B3382328140A0092FBA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A0C8B33A2328140B0092FBA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0C8B33C2328140B0092FBA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C8B3412328140B0092FBA0 /* GaemSturf WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GaemSturf WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C8B3462328140B0092FBA0 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A0C8B3482328140B0092FBA0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A0C8B34A2328140B0092FBA0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A0C8B34C2328140B0092FBA0 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A0C8B34E2328140C0092FBA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0C8B3502328140C0092FBA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C8B3512328140C0092FBA0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0C8B307232814090092FBA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C8B31B2328140A0092FBA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C8B3262328140A0092FBA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C8B33E2328140B0092FBA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0C8B301232814090092FBA0 = {
+			isa = PBXGroup;
+			children = (
+				A0C8B30C232814090092FBA0 /* GaemSturf */,
+				A0C8B3212328140A0092FBA0 /* GaemSturfTests */,
+				A0C8B32C2328140A0092FBA0 /* GaemSturfUITests */,
+				A0C8B3362328140A0092FBA0 /* GaemSturf WatchKit App */,
+				A0C8B3452328140B0092FBA0 /* GaemSturf WatchKit Extension */,
+				A0C8B30B232814090092FBA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0C8B30B232814090092FBA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0C8B30A232814090092FBA0 /* GaemSturf.app */,
+				A0C8B31E2328140A0092FBA0 /* GaemSturfTests.xctest */,
+				A0C8B3292328140A0092FBA0 /* GaemSturfUITests.xctest */,
+				A0C8B3322328140A0092FBA0 /* GaemSturf WatchKit App.app */,
+				A0C8B3412328140B0092FBA0 /* GaemSturf WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0C8B30C232814090092FBA0 /* GaemSturf */ = {
+			isa = PBXGroup;
+			children = (
+				A0C8B30D232814090092FBA0 /* AppDelegate.swift */,
+				A0C8B30F232814090092FBA0 /* ViewController.swift */,
+				A0C8B311232814090092FBA0 /* Main.storyboard */,
+				A0C8B3142328140A0092FBA0 /* Assets.xcassets */,
+				A0C8B3162328140A0092FBA0 /* LaunchScreen.storyboard */,
+				A0C8B3192328140A0092FBA0 /* Info.plist */,
+				A09FCA592332B47400A278A1 /* InfoPlist.strings */,
+				A09FCA602332BA5600A278A1 /* Localizable.strings */,
+			);
+			path = GaemSturf;
+			sourceTree = "<group>";
+		};
+		A0C8B3212328140A0092FBA0 /* GaemSturfTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0C8B3222328140A0092FBA0 /* GaemSturfTests.swift */,
+				A0C8B3242328140A0092FBA0 /* Info.plist */,
+			);
+			path = GaemSturfTests;
+			sourceTree = "<group>";
+		};
+		A0C8B32C2328140A0092FBA0 /* GaemSturfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0C8B32D2328140A0092FBA0 /* GaemSturfUITests.swift */,
+				A0C8B32F2328140A0092FBA0 /* Info.plist */,
+			);
+			path = GaemSturfUITests;
+			sourceTree = "<group>";
+		};
+		A0C8B3362328140A0092FBA0 /* GaemSturf WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A0C8B3372328140A0092FBA0 /* Interface.storyboard */,
+				A0C8B33A2328140B0092FBA0 /* Assets.xcassets */,
+				A0C8B33C2328140B0092FBA0 /* Info.plist */,
+			);
+			path = "GaemSturf WatchKit App";
+			sourceTree = "<group>";
+		};
+		A0C8B3452328140B0092FBA0 /* GaemSturf WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A0C8B3462328140B0092FBA0 /* InterfaceController.swift */,
+				A0C8B3482328140B0092FBA0 /* ExtensionDelegate.swift */,
+				A0C8B34A2328140B0092FBA0 /* NotificationController.swift */,
+				A0C8B34C2328140B0092FBA0 /* ComplicationController.swift */,
+				A0C8B34E2328140C0092FBA0 /* Assets.xcassets */,
+				A0C8B3502328140C0092FBA0 /* Info.plist */,
+				A0C8B3512328140C0092FBA0 /* PushNotificationPayload.apns */,
+			);
+			path = "GaemSturf WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0C8B309232814090092FBA0 /* GaemSturf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C8B35C2328140C0092FBA0 /* Build configuration list for PBXNativeTarget "GaemSturf" */;
+			buildPhases = (
+				A0C8B306232814090092FBA0 /* Sources */,
+				A0C8B307232814090092FBA0 /* Frameworks */,
+				A0C8B308232814090092FBA0 /* Resources */,
+				A0C8B35B2328140C0092FBA0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0C8B3352328140A0092FBA0 /* PBXTargetDependency */,
+			);
+			name = GaemSturf;
+			productName = GaemSturf;
+			productReference = A0C8B30A232814090092FBA0 /* GaemSturf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0C8B31D2328140A0092FBA0 /* GaemSturfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C8B35F2328140C0092FBA0 /* Build configuration list for PBXNativeTarget "GaemSturfTests" */;
+			buildPhases = (
+				A0C8B31A2328140A0092FBA0 /* Sources */,
+				A0C8B31B2328140A0092FBA0 /* Frameworks */,
+				A0C8B31C2328140A0092FBA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0C8B3202328140A0092FBA0 /* PBXTargetDependency */,
+			);
+			name = GaemSturfTests;
+			productName = GaemSturfTests;
+			productReference = A0C8B31E2328140A0092FBA0 /* GaemSturfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0C8B3282328140A0092FBA0 /* GaemSturfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C8B3622328140C0092FBA0 /* Build configuration list for PBXNativeTarget "GaemSturfUITests" */;
+			buildPhases = (
+				A0C8B3252328140A0092FBA0 /* Sources */,
+				A0C8B3262328140A0092FBA0 /* Frameworks */,
+				A0C8B3272328140A0092FBA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0C8B32B2328140A0092FBA0 /* PBXTargetDependency */,
+			);
+			name = GaemSturfUITests;
+			productName = GaemSturfUITests;
+			productReference = A0C8B3292328140A0092FBA0 /* GaemSturfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A0C8B3312328140A0092FBA0 /* GaemSturf WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C8B3582328140C0092FBA0 /* Build configuration list for PBXNativeTarget "GaemSturf WatchKit App" */;
+			buildPhases = (
+				A0C8B3302328140A0092FBA0 /* Resources */,
+				A0C8B3572328140C0092FBA0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0C8B3442328140B0092FBA0 /* PBXTargetDependency */,
+			);
+			name = "GaemSturf WatchKit App";
+			productName = "GaemSturf WatchKit App";
+			productReference = A0C8B3322328140A0092FBA0 /* GaemSturf WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A0C8B3402328140B0092FBA0 /* GaemSturf WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C8B3542328140C0092FBA0 /* Build configuration list for PBXNativeTarget "GaemSturf WatchKit Extension" */;
+			buildPhases = (
+				A0C8B33D2328140B0092FBA0 /* Sources */,
+				A0C8B33E2328140B0092FBA0 /* Frameworks */,
+				A0C8B33F2328140B0092FBA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GaemSturf WatchKit Extension";
+			productName = "GaemSturf WatchKit Extension";
+			productReference = A0C8B3412328140B0092FBA0 /* GaemSturf WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0C8B302232814090092FBA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "WillisWare, LLC";
+				TargetAttributes = {
+					A0C8B309232814090092FBA0 = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					A0C8B31D2328140A0092FBA0 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A0C8B309232814090092FBA0;
+					};
+					A0C8B3282328140A0092FBA0 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A0C8B309232814090092FBA0;
+					};
+					A0C8B3312328140A0092FBA0 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					A0C8B3402328140B0092FBA0 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = A0C8B305232814090092FBA0 /* Build configuration list for PBXProject "GaemSturf" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"es-419",
+				fr,
+			);
+			mainGroup = A0C8B301232814090092FBA0;
+			productRefGroup = A0C8B30B232814090092FBA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0C8B309232814090092FBA0 /* GaemSturf */,
+				A0C8B31D2328140A0092FBA0 /* GaemSturfTests */,
+				A0C8B3282328140A0092FBA0 /* GaemSturfUITests */,
+				A0C8B3312328140A0092FBA0 /* GaemSturf WatchKit App */,
+				A0C8B3402328140B0092FBA0 /* GaemSturf WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0C8B308232814090092FBA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09FCA5E2332BA5600A278A1 /* Localizable.strings in Resources */,
+				A0C8B3182328140A0092FBA0 /* LaunchScreen.storyboard in Resources */,
+				A09FCA572332B47400A278A1 /* InfoPlist.strings in Resources */,
+				A0C8B3152328140A0092FBA0 /* Assets.xcassets in Resources */,
+				A0C8B313232814090092FBA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C8B31C2328140A0092FBA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C8B3272328140A0092FBA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C8B3302328140A0092FBA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C8B33B2328140B0092FBA0 /* Assets.xcassets in Resources */,
+				A0C8B3392328140A0092FBA0 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C8B33F2328140B0092FBA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C8B34F2328140C0092FBA0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0C8B306232814090092FBA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C8B310232814090092FBA0 /* ViewController.swift in Sources */,
+				A0C8B30E232814090092FBA0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C8B31A2328140A0092FBA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C8B3232328140A0092FBA0 /* GaemSturfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C8B3252328140A0092FBA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C8B32E2328140A0092FBA0 /* GaemSturfUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C8B33D2328140B0092FBA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C8B34B2328140B0092FBA0 /* NotificationController.swift in Sources */,
+				A0C8B34D2328140B0092FBA0 /* ComplicationController.swift in Sources */,
+				A0C8B3492328140B0092FBA0 /* ExtensionDelegate.swift in Sources */,
+				A0C8B3472328140B0092FBA0 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0C8B3202328140A0092FBA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0C8B309232814090092FBA0 /* GaemSturf */;
+			targetProxy = A0C8B31F2328140A0092FBA0 /* PBXContainerItemProxy */;
+		};
+		A0C8B32B2328140A0092FBA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0C8B309232814090092FBA0 /* GaemSturf */;
+			targetProxy = A0C8B32A2328140A0092FBA0 /* PBXContainerItemProxy */;
+		};
+		A0C8B3352328140A0092FBA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0C8B3312328140A0092FBA0 /* GaemSturf WatchKit App */;
+			targetProxy = A0C8B3342328140A0092FBA0 /* PBXContainerItemProxy */;
+		};
+		A0C8B3442328140B0092FBA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0C8B3402328140B0092FBA0 /* GaemSturf WatchKit Extension */;
+			targetProxy = A0C8B3432328140B0092FBA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A09FCA592332B47400A278A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09FCA582332B47400A278A1 /* en */,
+				A09FCA5A2332B53C00A278A1 /* es-419 */,
+				A09FCA5B2332B56400A278A1 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A09FCA602332BA5600A278A1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09FCA5F2332BA5600A278A1 /* en */,
+				A09FCA612332BA5C00A278A1 /* es-419 */,
+				A09FCA622332BA5D00A278A1 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		A0C8B311232814090092FBA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C8B312232814090092FBA0 /* Base */,
+				A09FCA642332BC5900A278A1 /* en */,
+				A09FCA662332BC5B00A278A1 /* es-419 */,
+				A09FCA682332BC5C00A278A1 /* fr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0C8B3162328140A0092FBA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C8B3172328140A0092FBA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A0C8B3372328140A0092FBA0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C8B3382328140A0092FBA0 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0C8B3522328140C0092FBA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0C8B3532328140C0092FBA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0C8B3552328140C0092FBA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C32Y7R9A82;
+				INFOPLIST_FILE = "GaemSturf WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.willisware.GaemSturf.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		A0C8B3562328140C0092FBA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C32Y7R9A82;
+				INFOPLIST_FILE = "GaemSturf WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.willisware.GaemSturf.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		A0C8B3592328140C0092FBA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C32Y7R9A82;
+				IBSC_MODULE = GaemSturf_WatchKit_Extension;
+				INFOPLIST_FILE = "GaemSturf WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.willisware.GaemSturf.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		A0C8B35A2328140C0092FBA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C32Y7R9A82;
+				IBSC_MODULE = GaemSturf_WatchKit_Extension;
+				INFOPLIST_FILE = "GaemSturf WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.willisware.GaemSturf.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		A0C8B35D2328140C0092FBA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C32Y7R9A82;
+				INFOPLIST_FILE = GaemSturf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.willisware.GaemSturf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A0C8B35E2328140C0092FBA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C32Y7R9A82;
+				INFOPLIST_FILE = GaemSturf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.willisware.GaemSturf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A0C8B3602328140C0092FBA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C32Y7R9A82;
+				INFOPLIST_FILE = GaemSturfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.willisware.GaemSturfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaemSturf.app/GaemSturf";
+			};
+			name = Debug;
+		};
+		A0C8B3612328140C0092FBA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C32Y7R9A82;
+				INFOPLIST_FILE = GaemSturfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.willisware.GaemSturfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaemSturf.app/GaemSturf";
+			};
+			name = Release;
+		};
+		A0C8B3632328140C0092FBA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C32Y7R9A82;
+				INFOPLIST_FILE = GaemSturfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.willisware.GaemSturfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GaemSturf;
+			};
+			name = Debug;
+		};
+		A0C8B3642328140C0092FBA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C32Y7R9A82;
+				INFOPLIST_FILE = GaemSturfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.willisware.GaemSturfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GaemSturf;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0C8B305232814090092FBA0 /* Build configuration list for PBXProject "GaemSturf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C8B3522328140C0092FBA0 /* Debug */,
+				A0C8B3532328140C0092FBA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C8B3542328140C0092FBA0 /* Build configuration list for PBXNativeTarget "GaemSturf WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C8B3552328140C0092FBA0 /* Debug */,
+				A0C8B3562328140C0092FBA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C8B3582328140C0092FBA0 /* Build configuration list for PBXNativeTarget "GaemSturf WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C8B3592328140C0092FBA0 /* Debug */,
+				A0C8B35A2328140C0092FBA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C8B35C2328140C0092FBA0 /* Build configuration list for PBXNativeTarget "GaemSturf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C8B35D2328140C0092FBA0 /* Debug */,
+				A0C8B35E2328140C0092FBA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C8B35F2328140C0092FBA0 /* Build configuration list for PBXNativeTarget "GaemSturfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C8B3602328140C0092FBA0 /* Debug */,
+				A0C8B3612328140C0092FBA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C8B3622328140C0092FBA0 /* Build configuration list for PBXNativeTarget "GaemSturfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C8B3632328140C0092FBA0 /* Debug */,
+				A0C8B3642328140C0092FBA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0C8B302232814090092FBA0 /* Project object */;
+}

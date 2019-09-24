@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GaemSturf" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="iFY-w8-kuB">
+                                <rect key="frame" x="0.0" y="64" width="414" height="781"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J5b-k8-FYG">
+                                        <rect key="frame" x="0.0" y="0.0" width="82.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sps-c0-muI">
+                                        <rect key="frame" x="0.0" y="28.5" width="414" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" spellCheckingType="yes" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                        <connections>
+                                            <action selector="titleDidChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="z1O-yG-6In"/>
+                                        </connections>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xHQ-hU-HSH">
+                                        <rect key="frame" x="0.0" y="66.5" width="49" height="30"/>
+                                        <state key="normal" title="Submit"/>
+                                        <connections>
+                                            <action selector="submitButtonDidTapInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L06-Yq-dtm"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="414" placeholderIntrinsicHeight="320" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="ZFy-FZ-soK">
+                                        <rect key="frame" x="0.0" y="104.5" width="414" height="320"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="ZFy-FZ-soK" secondAttribute="height" multiplier="207:160" id="Qv0-14-9Ol"/>
+                                        </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="gfE-Gq-9kI" appends="YES" id="EQf-9B-nq2"/>
+                                        </connections>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0,0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ba9-a5-MFO">
+                                        <rect key="frame" x="0.0" y="432.5" width="414" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="eyM-4s-eJ0">
+                                        <rect key="frame" x="0.0" y="461" width="414" height="320"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="320" id="Ru8-Au-DXU"/>
+                                        </constraints>
+                                    </mapView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ZFy-FZ-soK" secondAttribute="trailing" id="3Hc-Ns-bOp"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ba9-a5-MFO" secondAttribute="trailing" id="HtV-fx-rap"/>
+                                    <constraint firstAttribute="trailing" secondItem="sps-c0-muI" secondAttribute="trailing" id="XKD-wA-Adf"/>
+                                    <constraint firstAttribute="trailing" secondItem="eyM-4s-eJ0" secondAttribute="trailing" id="fIk-ET-yjo"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Uee-0j-aNJ" firstAttribute="trailing" secondItem="iFY-w8-kuB" secondAttribute="trailing" id="ELr-pm-jXv"/>
+                            <constraint firstItem="iFY-w8-kuB" firstAttribute="leading" secondItem="Uee-0j-aNJ" secondAttribute="leading" id="TEt-1U-cjE"/>
+                            <constraint firstItem="iFY-w8-kuB" firstAttribute="top" secondItem="Uee-0j-aNJ" secondAttribute="top" constant="20" id="o9D-BR-Z8B"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Uee-0j-aNJ"/>
+                    </view>
+                    <connections>
+                        <outlet property="locationLabel" destination="Ba9-a5-MFO" id="LgF-jm-F8x"/>
+                        <outlet property="mapView" destination="eyM-4s-eJ0" id="V2Q-64-NTY"/>
+                        <outlet property="photoImageView" destination="ZFy-FZ-soK" id="6LY-nV-J6q"/>
+                        <outlet property="submitButton" destination="xHQ-hU-HSH" id="0U5-kT-LRH"/>
+                        <outlet property="titleLabel" destination="J5b-k8-FYG" id="i6g-S8-U0O"/>
+                        <outlet property="titleTextField" destination="sps-c0-muI" id="rCk-03-yod"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="gfE-Gq-9kI">
+                    <connections>
+                        <action selector="photoImageViewDidTap:" destination="BYZ-38-t0r" id="tlR-Pv-D51"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="defaultPhoto" width="960" height="540"/>
+    </resources>
+</document>

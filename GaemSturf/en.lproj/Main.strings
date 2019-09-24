@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "0,0"; ObjectID = "Ba9-a5-MFO"; */
+"Ba9-a5-MFO.text" = "0,0";
+
+/* Class = "UILabel"; text = "Game Title"; ObjectID = "J5b-k8-FYG"; */
+"J5b-k8-FYG.text" = "Game Title";
+
+/* Class = "UITextField"; placeholder = "Enter title"; ObjectID = "sps-c0-muI"; */
+"sps-c0-muI.placeholder" = "Enter title";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "xHQ-hU-HSH"; */
+"xHQ-hU-HSH.normalTitle" = "Do It";
